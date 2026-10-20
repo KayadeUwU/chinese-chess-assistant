@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Engine binary - download it (see README)
+engine/
+
+# Per-machine calibration and generated images
+config.json
+templates/
+board_start.png
+calibration_preview.png
+vision_debug.png
+
+# Logs and misread/game-over screenshots
+logs/
+
+# Personal screenshots used for local testing
+start.png
+opponent_moved.png
+game_over.png
+game_over_live.png
